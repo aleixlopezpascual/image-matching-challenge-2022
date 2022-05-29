@@ -1,0 +1,19 @@
+[flake8]
+count = True
+show-source = True
+statistics = True
+max-complexity = 20
+max-line-length = 88
+exclude =
+    .git,
+    __pycache__
+ignore =
+  # Whitespace style
+  E2,
+  W2,
+  # Blank line style
+  E3,
+  W3,
+  # Line break style
+  E5,
+  W5
