@@ -7,6 +7,13 @@ authors = ["aleixlopezpascual <aleixlopezpascual@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyter = "^1.0.0"
+pytorch-lightning = "^1.6.3"
+protobuf = "^3.20"
+yacs = "*"
+joblib = "*"
+h5py = "*"
+albumentations = "*"
+pandas = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
